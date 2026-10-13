@@ -112,7 +112,11 @@ Stop: `docker compose down` — reset data: `docker compose down -v`
 
 Buka `http://localhost:5173`, login dengan akun demo di bawah.
 
-### 4. Akun Demo
+### 4. Akses Demo Online
+
+https://frontend-test-mapid-three.vercel.app
+
+### 5. Akun Demo
 
 | Role     | Username | Password   | Hak                               |
 | -------- | -------- | ---------- | --------------------------------- |
@@ -136,3 +140,13 @@ Buka `http://localhost:5173`, login dengan akun demo di bawah.
 - `PATCH /reports/:id` - edit laporan
 - `PATCH /reports/:id/status` - approve/reject laporan
 - `GET /history` - riwayat persetujuan
+
+### 6. Deploy
+
+Frontend di Vercel, backend + database di homelab Ubuntu via Docker dan Cloudflare Tunnel.
+
+| Bagian   | Lokasi           | URL                                          |
+| -------- | ---------------- | -------------------------------------------- |
+| Frontend | Vercel           | https://frontend-test-mapid-three.vercel.app |
+| Backend  | Homelab (Docker) | https://mapid-api.hariinidev.tech            |
+|          |                  |                                              |
