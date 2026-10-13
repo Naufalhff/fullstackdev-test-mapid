@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mapid: #0e7a4b;
+  --color-mapid-600: #0a5e3a;
+}
+
+*:focus-visible {
+  outline: 2px solid #0e7a4b;
+  outline-offset: 2px;
+}
